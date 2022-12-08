@@ -1,16 +1,1 @@
-const loginForm = document.getElementById("login-form");
-const loginButton = document.getElementById("login-form-submit");
-const loginErrorMsg = document.getElementById("login-error-msg");
-
-loginButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    const username = loginForm.username.value;
-    const password = loginForm.password.value;
-
-    if (username === "user" && password === "web_dev") {
-        alert("You have successfully logged in.");
-        window.location.href = 'redirect.html';
-    } else {
-        loginErrorMsg.style.opacity = 1;
-    }
-})
+function _0x9c08(){const _0x419f2c=['13943680SCCkey','getElementById','addEventListener','click','1684MniFCl','login-form-submit','470802ttFiFe','style','140qxttnB','18122850EtIfNI','password','You\x20have\x20successfully\x20logged\x20in.','preventDefault','opacity','redirect.html','username','1115367JyYWKq','thepasswordispassword','148042iwvOZi','LowTierWebDev','value','6pnYodm','9824310gjfUDU','10905OVEwRf','login-form','location','login-error-msg'];_0x9c08=function(){return _0x419f2c;};return _0x9c08();}const _0x6c4ef3=_0x368a;(function(_0x2b3761,_0x36e721){const _0x31d9bf=_0x368a,_0x551156=_0x2b3761();while(!![]){try{const _0x27bd9a=-parseInt(_0x31d9bf(0x137))/0x1+-parseInt(_0x31d9bf(0x139))/0x2*(parseInt(_0x31d9bf(0x13c))/0x3)+parseInt(_0x31d9bf(0x12b))/0x4*(-parseInt(_0x31d9bf(0x13e))/0x5)+parseInt(_0x31d9bf(0x12d))/0x6*(-parseInt(_0x31d9bf(0x12f))/0x7)+parseInt(_0x31d9bf(0x142))/0x8+parseInt(_0x31d9bf(0x13d))/0x9+parseInt(_0x31d9bf(0x130))/0xa;if(_0x27bd9a===_0x36e721)break;else _0x551156['push'](_0x551156['shift']());}catch(_0x115200){_0x551156['push'](_0x551156['shift']());}}}(_0x9c08,0xdab8d));const loginForm=document[_0x6c4ef3(0x128)](_0x6c4ef3(0x13f)),loginButton=document[_0x6c4ef3(0x128)](_0x6c4ef3(0x12c)),loginErrorMsg=document[_0x6c4ef3(0x128)](_0x6c4ef3(0x141));function _0x368a(_0x16ef37,_0x4b7a3b){const _0x9c081b=_0x9c08();return _0x368a=function(_0x368add,_0x437a77){_0x368add=_0x368add-0x128;let _0x440013=_0x9c081b[_0x368add];return _0x440013;},_0x368a(_0x16ef37,_0x4b7a3b);}loginButton[_0x6c4ef3(0x129)](_0x6c4ef3(0x12a),_0x498397=>{const _0x4c9980=_0x6c4ef3;_0x498397[_0x4c9980(0x133)]();const _0x2805b4=loginForm[_0x4c9980(0x136)]['value'],_0x2e26f6=loginForm[_0x4c9980(0x131)][_0x4c9980(0x13b)];_0x2805b4===_0x4c9980(0x13a)&&_0x2e26f6===_0x4c9980(0x138)?(alert(_0x4c9980(0x132)),window[_0x4c9980(0x140)]['href']=_0x4c9980(0x135)):loginErrorMsg[_0x4c9980(0x12e)][_0x4c9980(0x134)]=0x1;});
